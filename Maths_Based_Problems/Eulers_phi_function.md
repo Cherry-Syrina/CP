@@ -302,54 +302,7 @@ class Solution {
 
 ---
 
-# ❌ Common Mistakes
-
-### 1.
-
-```java
-int result = 0;
-```
-
-✅ Correct
-
-```java
-int result = n;
-```
-
----
-
-### 2.
-
-```java
-result -= -result / i;
-```
-
-✅ Correct
-
-```java
-result -= result / i;
-```
-
----
-
-### 3.
-
-```java
-if(n > 1)
-    result -= result / i;
-```
-
-❌ `i` loop ke bahar exist nahi karta.
-
-✅ Correct
-
-```java
-result -= result / n;
-```
-
----
-
-# 🧠 Revision Trick
+Revision Trick
 
 ```
 result = n
